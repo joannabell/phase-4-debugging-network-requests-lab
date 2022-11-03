@@ -62,12 +62,12 @@ developing your own process.
 
 - Add a new toy when the toy form is submitted
 
-  - How I debugged:
+  - How I debugged: Tried to create a new toy, but got a 500 internal server error. Looked at the create action and fixed the typo. ("Toys" updated to "Toy")
 
 - Update the number of likes for a toy
 
-  - How I debugged:
+  - How I debugged: Checked the update action and added a "render json:" command on the third line.
 
 - Donate a toy to Goodwill (and delete it from our database)
 
-  - How I debugged:
+  - How I debugged: Updated the resources route to include :destroy.
